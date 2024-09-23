@@ -1,0 +1,87 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgb(12, 8, 44);
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.navbar a:hover{
+    cursor: pointer;
+    color: #00abf0;
+}
+.shome{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.dhome {
+    max-width: 600px;
+    padding-left: 70px;
+}
+.dhome h1{
+    font-size: 45px;
+    font-weight: 700;
+}
+.dhome h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: blue;
+}
+.dhome p{
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+.dhome .btn{
+    display: flex;
+    justify-content: space-between;
+    width: 354px;
+    height: 50px;
+}
+.btn a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    border: 2px solid #00abf0;
+    background: #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn a:nth-child(2){
+    background: transparent;
+    color: white;
+}
